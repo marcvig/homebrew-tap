@@ -4,6 +4,14 @@ Homebrew casks for apps by Marc Vigod.
 
 ## Install
 
+Homebrew 6+ requires you to trust third-party taps before installing. Run this once:
+
+```sh
+brew trust --cask marcvig/tap/orbit-launcher
+```
+
+Then install:
+
 ```sh
 brew install --cask marcvig/tap/orbit-launcher
 ```
@@ -12,6 +20,7 @@ Or tap first, then install:
 
 ```sh
 brew tap marcvig/tap
+brew trust --cask marcvig/tap/orbit-launcher
 brew install --cask orbit-launcher
 ```
 
