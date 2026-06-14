@@ -29,5 +29,6 @@ brew install --cask orbit-launcher
 | Cask | App | Description |
 |------|-----|-------------|
 | `orbit-launcher` | [Orbit Launcher](https://orbitlauncher.app) | Radial app-launcher ring summoned at your cursor with a global hotkey |
+| `caffeine-timer` | [CaffeineTimer](https://github.com/marcvig/caffeine-timer) | Menu-bar timer that keeps your Mac awake for a set duration |
 
-Apps update themselves (Sparkle); `brew upgrade` is not required but works.
+Orbit Launcher updates itself (Sparkle); CaffeineTimer updates via `brew upgrade --cask`.
