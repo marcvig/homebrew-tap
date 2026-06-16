@@ -1,6 +1,6 @@
 cask "orbit-launcher" do
-  version "0.3.2,175"
-  sha256 "64e233b6e9da27cdb0a0a913f3a7bded094ab4d20d9c177e500d318a8fa340d9"
+  version "0.3.3,194"
+  sha256 "5b3b18af99b04711bb893a4853614a483df3fc69ba652482d33bd2f1d6a9e9f1"
 
   url "https://get.orbitlauncher.app/Orbit%20Launcher-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Orbit Launcher"
