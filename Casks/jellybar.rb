@@ -2,7 +2,8 @@ cask "jellybar" do
   version "0.2.0"
   sha256 "264df3ffc7741301191cda3db00533825cdc182f5b10dc0c0595ef7bc9b91d52"
 
-  url "https://github.com/marcvig/jellybar-releases/releases/download/v#{version}/JellyBar-#{version}.dmg"
+  url "https://github.com/marcvig/jellybar-releases/releases/download/v#{version}/JellyBar-#{version}.dmg",
+      verified: "github.com/marcvig/jellybar-releases/"
   name "JellyBar"
   desc "Reliable menu bar icon manager for macOS"
   homepage "https://jellybar.app"
