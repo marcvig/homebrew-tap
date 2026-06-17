@@ -6,7 +6,7 @@ cask "jellybar" do
       verified: "github.com/marcvig/jellybar-releases/"
   name "JellyBar"
   desc "Reliable menu bar icon manager for macOS"
-  homepage "https://jellybar.app"
+  homepage "https://jellybar.app/"
 
   livecheck do
     url "https://github.com/marcvig/jellybar-releases"
@@ -14,7 +14,6 @@ cask "jellybar" do
   end
 
   auto_updates true
-
   depends_on macos: :sequoia
   depends_on arch: :arm64
 
