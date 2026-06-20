@@ -1,6 +1,6 @@
 cask "caffeine-timer" do
-  version "1.2.0"
-  sha256 "535f567e0c31d6231ad723ade9db887b434a3858010715f4b9e53178df9ed60f"
+  version "1.3.0"
+  sha256 "2a48008b9b85188bb7f126bc360ad47a7583bd622fcde2d0c0ff04ec81613944"
 
   url "https://github.com/marcvig/caffeine-timer/releases/download/v#{version}/CaffeineTimer-#{version}.dmg"
   name "Caffeine Timer"
