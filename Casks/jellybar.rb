@@ -5,7 +5,7 @@ cask "jellybar" do
   url "https://github.com/marcvig/jellybar-releases/releases/download/v#{version}/JellyBar-#{version}.dmg",
       verified: "github.com/marcvig/jellybar-releases/"
   name "JellyBar"
-  desc "Reliable menu bar icon manager for macOS"
+  desc "Reliable menu bar icon manager"
   homepage "https://jellybar.app/"
 
   livecheck do
