@@ -1,6 +1,6 @@
 cask "jellybar" do
-  version "0.4.1"
-  sha256 "7a278caa2e8f133d5fdab2c957c15184cac7f036fea75b937157877b273b66fe"
+  version "0.4.2"
+  sha256 "2a78576db9a9e11417a247b58d396f30105e2265d5f6443806de5aa6ed83c3de"
 
   url "https://github.com/marcvig/jellybar-releases/releases/download/v#{version}/JellyBar-#{version}.dmg",
       verified: "github.com/marcvig/jellybar-releases/"
